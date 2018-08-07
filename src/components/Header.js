@@ -6,11 +6,11 @@ const Header = props => (
     <Link to="/" className="logo">
       <strong>MAZE</strong> <span>DIGITAL</span>
     </Link>
-    <nav>
+    {/*<nav>
       <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">
         Menu
       </a>
-    </nav>
+    </nav>*/}
   </header>
 )
 
