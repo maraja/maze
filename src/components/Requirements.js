@@ -10,7 +10,8 @@ const Requirements = props => (
   <section id="requirements">
     <div className="inner">
       <section>
-        <form method="post" action="#">
+        <form name="requirements" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+          <input type="hidden" name="bot-field" />
           <div className="field half first">
             <label htmlFor="name">Name</label>
             <input type="text" name="name" id="name" />
@@ -65,10 +66,6 @@ const Requirements = props => (
               Please indicate your anticipated budget for the project.
             </label>
             <input type="text" name="budget" id="budget" />
-          </div>
-          <div className="field">
-            <label htmlFor="message">Message</label>
-            <textarea name="message" id="message" rows="6" />
           </div>
 
           <div className="row uniform">
@@ -155,11 +152,11 @@ const Requirements = props => (
 
           <ul className="actions">
             <li>
-              <input type="submit" value="Send Message" className="special" />
+              <input type="submit" value="Submit" className="special" />
             </li>
-            <li>
+            {/*<li>
               <input type="reset" value="Clear" />
-            </li>
+            </li>*/}
           </ul>
         </form>
       </section>
