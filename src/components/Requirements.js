@@ -101,6 +101,7 @@ const Requirements = props => (
             <div className="6u 12u(small)">
               <input type="radio" id="site-dimension" name="site" checked />
               <label htmlFor="site-dimension">
+                Dimension<br/>
                 <a href="http://gatsby-dimension.surge.sh/" target="_blank">
                   <span className="image fit">
                     <img src={dimension} />
@@ -111,6 +112,7 @@ const Requirements = props => (
             <div className="6u 12u(small)">
               <input type="radio" id="site-forty" name="site" />
               <label htmlFor="site-forty">
+              Forty<br/>
                 <a href="http://gatsby-forty.surge.sh/" target="_blank">
                   <span className="image fit">
                     <img src={forty} />
@@ -121,6 +123,7 @@ const Requirements = props => (
             <div className="6u 12u(small)">
               <input type="radio" id="site-strata" name="site" />
               <label htmlFor="site-strata">
+              Strata<br/>
                 <a href="http://gatsby-strata.surge.sh/" target="_blank">
                   <span className="image fit">
                     <img src={strata} />
@@ -131,6 +134,7 @@ const Requirements = props => (
             <div className="6u 12u(small)">
               <input type="radio" id="site-stellar" name="site" />
               <label htmlFor="site-stellar">
+              Stellar<br/>
                 <a href="http://gatsby-stellar.surge.sh/" target="_blank">
                   <span className="image fit">
                     <img src={stellar} />
@@ -141,6 +145,7 @@ const Requirements = props => (
             <div className="6u 12u(small)">
               <input type="radio" id="site-photon" name="site" />
               <label htmlFor="site-photon">
+              Photon<br/>
                 <a href="http://gatsby-photon.surge.sh/" target="_blank">
                   <span className="image fit">
                     <img src={photon} />
